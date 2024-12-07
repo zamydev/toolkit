@@ -1,0 +1,32 @@
+**lista de recursos y paquetes básico
+paquetes con pacman 
+------------------------------------------
+alacritty 
+picom
+udiskie 
+feh 
+neofetch 
+lxappearance 
+vlc
+ranger
+firefox
+obsidian 
+git 
+unzip
+polybar
+nitrogen 
+breeze
+ksnip
+yazi  
+----------------------------------------------
+
+
+ git clone https://github.com/adi1090x/rofi.git
+ git clone https://aur.archlinux.org/paru.git
+
+
+paquetes paru 
+  paru -S papirus-icon-theme 
+  paru -S arc-gtk-theme            
+  sublime-text-4               
+
