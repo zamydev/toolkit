@@ -8,9 +8,11 @@ font pango:monospace 8
 # Autostart
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id picom -b
-exec --no-startup-id feh --bg-scale /home/zam/wallpaper/dracula.png
-exec --no-startup-id sleep 1=; polybar --config=~/.config/polybar/config.ini
+exec --no-startup-id feh --bg-scale /home/zamy/.config/wallpaper/5.jpeg
+#exec --no-startup-id sleep 1=; polybar --config=~/.config/polybar/forest/launch.sh
+#exec --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id udiskie
+
 
 # Bloqueo de pantalla y gestión de red
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -31,7 +33,7 @@ tiling_drag modifier titlebar
 #bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec alacritty
 bindsym $mod+w kill
-bindsym $mod+q exec --no-startup-id bash /home/zam/.config/rofi/launchers/type-2/launcher.sh
+bindsym $mod+q exec --no-startup-id bash /home/zamy/.config/rofi/launchers/type-2/launcher.sh
 
 #---------------------------------------------
 # Cambiar enfoque 
@@ -64,6 +66,7 @@ bindsym $mod+a focus parent
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
+set $ws4 "4"
 
 
 
@@ -94,7 +97,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # Recarga y salida
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+p exec --no-startup-id /home/zam/.config/rofi/powermenu/type-2/powermenu.sh
+bindsym $mod+p exec --no-startup-id /home/zamy/.config/rofi/powermenu/type-2/powermenu.sh
 
 
 # Redimensionar ventana
