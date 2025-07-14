@@ -12,6 +12,7 @@ exec --no-startup-id feh --bg-scale /home/zamy/.config/wallpaper/5.jpeg
 #exec --no-startup-id sleep 1=; polybar --config=~/.config/polybar/forest/launch.sh
 #exec --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id udiskie
+exec --no-startup-id xrandr --output DP-3 --mode 1366x768
 
 
 # Bloqueo de pantalla y gestión de red

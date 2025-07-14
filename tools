@@ -14,19 +14,31 @@ obsidian
 git 
 unzip
 polybar
+code 
 nitrogen 
 breeze
-ksnip
-yazi  
+obsidian
+leafpad
+cava
+baobab
+
 ----------------------------------------------
+
+
 
 
  git clone https://github.com/adi1090x/rofi.git
  git clone https://aur.archlinux.org/paru.git
+    
+  mkdir blackarch
+  curl -O https://blackarch.org/strap.sh
+ chmod +x strap.sh
+   # ./strap.sh
 
 
 paquetes paru 
   paru -S papirus-icon-theme 
-  paru -S arc-gtk-theme            
+  paru -S arc-gtk-theme 
+  rar           
   sublime-text-4               
 
